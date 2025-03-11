@@ -50,6 +50,6 @@ Since each component is internally wrapped inside a `<div>` (through the `Step-S
 
 Check out the source code and contribute to the project on GitHub:
 
-[StepScroll Repository](https://github.com/mohammad-gh72/step-slider)
+[step-slider Repository](https://github.com/mohammad-gh72/step-slider)
 
 # step-slider
