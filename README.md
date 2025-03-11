@@ -40,11 +40,12 @@ Since each component is internally wrapped inside a `<div>` (through the `Step-S
 
 ### Check the image below:
 
-![Layout Example](PUT_YOUR_IMAGE_URL_HERE)
+![Layout Example](<https://github.com/mohammad-gh72/step-slider/blob/main/img/Screenshot%20(58).jpg>)
 
 ## GitHub Repository
 
 Check out the source code and contribute to the project on GitHub:
 
 [StepScroll Repository](https://github.com/mohammad-gh72/step-slide)
+
 # step-slider
