@@ -1,7 +1,7 @@
 {
   "name": "step-slider",
   "private": false,
-  "version": "1.4.12",
+  "version": "1.6.12",
   "description": "A React component for step-based navigation",
   "main": "dist/index.js",
   "module": "dist/index.js",
