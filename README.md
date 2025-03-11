@@ -2,6 +2,10 @@
 
 A React component for step-based scrolling navigation.
 
+## Demo
+
+![Demo GIF](<https://raw.githubusercontent.com/mohammad-gh72/step-slider/refs/heads/main/img/Rec%200009%20(online-video-cutter.com).gif>)
+
 ## 📺 Video Tutorial
 
 Here is the video showing how to use this component:  
