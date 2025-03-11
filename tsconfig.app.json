@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": false, // اینجا باید `noEmit` را به `false` تغییر دهی تا خروجی تولید شود
+    "jsx": "react-jsx",
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true,
+
+    /* برای تولید تایپ‌ها */
+    "declaration": true, // این گزینه برای تولید فایل‌های `.d.ts` است
+
+    "declarationMap": true,
+
+    "declarationDir": "./dist/types", // فایل‌های تایپ به این مسیر می‌روند
+    "outDir": "dist" // خروجی تمام فایل‌ها در این پوشه قرار می‌گیرد
+  },
+  "include": ["src/lib"],
+  "exclude": ["node_modules", "dist"] // از کامپایل شدن پوشه‌ی `dist` جلوگیری می‌کند
+}
